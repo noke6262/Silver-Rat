@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Server.Helper.HexEditor\HexEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Server.Helper\AeroListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Server.Helper\RegistryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Server.Helper\WordTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Cam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\ChangeLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\DownloadUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormCustomOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormRegValueEditBinary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormRegValueEditMultiString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormRegValueEditString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormRegValueEditWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FormSilver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\FvncCustomOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\HbroCustomOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\HiddenApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\HiddenBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\HiddenRDP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\HiddenVNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Keyloaggar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Logger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Passwords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\Ransomware.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\RemoteApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\RemoteDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\ReversePeoxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\ScanNET.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\UploadFromLink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Forms\UploadUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Helper\PopupNotifier.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="SilverRAT.Helper\PopupNotifierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

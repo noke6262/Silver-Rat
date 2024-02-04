@@ -1,0 +1,176 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SilverRAT</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+    <StartupObject></StartupObject>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="costura.bouncycastle.crypto.dll.compressed" />
+    <None Remove="SilverRAT.exe.licenses" />
+    <None Remove="costura.bunifu.licensing.dll.compressed" />
+    <None Remove="costura.bunifu.licensing.pdb.compressed" />
+    <None Remove="costura.bunifu.ui.winforms.1.5.3.dll.compressed" />
+    <None Remove="costura.bunifu.ui.winforms.dll.compressed" />
+    <None Remove="costura.cgeoip.dll.compressed" />
+    <None Remove="costura.costura.dll.compressed" />
+    <None Remove="costura.guna.ui2.dll.compressed" />
+    <None Remove="costura.microsoft.win32.registry.accesscontrol.dll.compressed" />
+    <None Remove="costura.microsoft.win32.registry.dll.compressed" />
+    <None Remove="costura.microsoft.win32.systemevents.dll.compressed" />
+    <None Remove="costura.newtonsoft.json.dll.compressed" />
+    <None Remove="costura.protobuf-net.core.dll.compressed" />
+    <None Remove="costura.protobuf-net.dll.compressed" />
+    <None Remove="costura.restsharp.dll.compressed" />
+    <None Remove="costura.system.buffers.dll.compressed" />
+    <None Remove="costura.system.codedom.dll.compressed" />
+    <None Remove="costura.system.collections.immutable.dll.compressed" />
+    <None Remove="costura.system.configuration.configurationmanager.dll.compressed" />
+    <None Remove="costura.system.data.odbc.dll.compressed" />
+    <None Remove="costura.system.data.oledb.dll.compressed" />
+    <None Remove="costura.system.data.sqlclient.dll.compressed" />
+    <None Remove="costura.system.diagnostics.eventlog.dll.compressed" />
+    <None Remove="costura.system.diagnostics.performancecounter.dll.compressed" />
+    <None Remove="costura.system.drawing.common.dll.compressed" />
+    <None Remove="costura.system.io.filesystem.accesscontrol.dll.compressed" />
+    <None Remove="costura.system.io.packaging.dll.compressed" />
+    <None Remove="costura.system.io.pipes.accesscontrol.dll.compressed" />
+    <None Remove="costura.system.io.ports.dll.compressed" />
+    <None Remove="costura.system.memory.dll.compressed" />
+    <None Remove="costura.system.numerics.vectors.dll.compressed" />
+    <None Remove="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <None Remove="costura.system.security.accesscontrol.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.cng.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.pkcs.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.protecteddata.dll.compressed" />
+    <None Remove="costura.system.security.cryptography.xml.dll.compressed" />
+    <None Remove="costura.system.security.permissions.dll.compressed" />
+    <None Remove="costura.system.security.principal.windows.dll.compressed" />
+    <None Remove="costura.system.servicemodel.duplex.dll.compressed" />
+    <None Remove="costura.system.servicemodel.duplex.pdb.compressed" />
+    <None Remove="costura.system.servicemodel.http.dll.compressed" />
+    <None Remove="costura.system.servicemodel.http.pdb.compressed" />
+    <None Remove="costura.system.servicemodel.nettcp.dll.compressed" />
+    <None Remove="costura.system.servicemodel.nettcp.pdb.compressed" />
+    <None Remove="costura.system.servicemodel.primitives.dll.compressed" />
+    <None Remove="costura.system.servicemodel.primitives.pdb.compressed" />
+    <None Remove="costura.system.servicemodel.security.dll.compressed" />
+    <None Remove="costura.system.servicemodel.security.pdb.compressed" />
+    <None Remove="costura.system.servicemodel.syndication.dll.compressed" />
+    <None Remove="costura.system.serviceprocess.servicecontroller.dll.compressed" />
+    <None Remove="costura.system.text.encoding.codepages.dll.compressed" />
+    <None Remove="costura.system.threading.accesscontrol.dll.compressed" />
+    <None Remove="costura.system.web.services.description.dll.compressed" />
+    <None Remove="costura.system.web.services.description.pdb.compressed" />
+    <EmbeddedResource Include="SilverRAT.exe.licenses" LogicalName="SilverRAT.exe.licenses" />
+    <EmbeddedResource Include="costura.bouncycastle.crypto.dll.compressed" LogicalName="costura.bouncycastle.crypto.dll.compressed">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costura.bunifu.licensing.dll.compressed" LogicalName="costura.bunifu.licensing.dll.compressed">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="costura.bunifu.licensing.pdb.compressed" LogicalName="costura.bunifu.licensing.pdb.compressed" />
+    <EmbeddedResource Include="costura.bunifu.ui.winforms.1.5.3.dll.compressed" LogicalName="costura.bunifu.ui.winforms.1.5.3.dll.compressed">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costura.bunifu.ui.winforms.dll.compressed" LogicalName="costura.bunifu.ui.winforms.dll.compressed" />
+    <EmbeddedResource Include="costura.cgeoip.dll.compressed" LogicalName="costura.cgeoip.dll.compressed">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costura.costura.dll.compressed" LogicalName="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.guna.ui2.dll.compressed" LogicalName="costura.guna.ui2.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.win32.registry.accesscontrol.dll.compressed" LogicalName="costura.microsoft.win32.registry.accesscontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.win32.registry.dll.compressed" LogicalName="costura.microsoft.win32.registry.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.win32.systemevents.dll.compressed" LogicalName="costura.microsoft.win32.systemevents.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" LogicalName="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.protobuf-net.core.dll.compressed" LogicalName="costura.protobuf-net.core.dll.compressed" />
+    <EmbeddedResource Include="costura.protobuf-net.dll.compressed" LogicalName="costura.protobuf-net.dll.compressed" />
+    <EmbeddedResource Include="costura.restsharp.dll.compressed" LogicalName="costura.restsharp.dll.compressed" />
+    <EmbeddedResource Include="costura.system.buffers.dll.compressed" LogicalName="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="costura.system.codedom.dll.compressed" LogicalName="costura.system.codedom.dll.compressed" />
+    <EmbeddedResource Include="costura.system.collections.immutable.dll.compressed" LogicalName="costura.system.collections.immutable.dll.compressed" />
+    <EmbeddedResource Include="costura.system.configuration.configurationmanager.dll.compressed" LogicalName="costura.system.configuration.configurationmanager.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.odbc.dll.compressed" LogicalName="costura.system.data.odbc.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.oledb.dll.compressed" LogicalName="costura.system.data.oledb.dll.compressed" />
+    <EmbeddedResource Include="costura.system.data.sqlclient.dll.compressed" LogicalName="costura.system.data.sqlclient.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.eventlog.dll.compressed" LogicalName="costura.system.diagnostics.eventlog.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.performancecounter.dll.compressed" LogicalName="costura.system.diagnostics.performancecounter.dll.compressed" />
+    <EmbeddedResource Include="costura.system.drawing.common.dll.compressed" LogicalName="costura.system.drawing.common.dll.compressed" />
+    <EmbeddedResource Include="costura.system.io.filesystem.accesscontrol.dll.compressed" LogicalName="costura.system.io.filesystem.accesscontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.system.io.packaging.dll.compressed" LogicalName="costura.system.io.packaging.dll.compressed" />
+    <EmbeddedResource Include="costura.system.io.pipes.accesscontrol.dll.compressed" LogicalName="costura.system.io.pipes.accesscontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.system.io.ports.dll.compressed" LogicalName="costura.system.io.ports.dll.compressed" />
+    <EmbeddedResource Include="costura.system.memory.dll.compressed" LogicalName="costura.system.memory.dll.compressed" />
+    <EmbeddedResource Include="costura.system.numerics.vectors.dll.compressed" LogicalName="costura.system.numerics.vectors.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.compilerservices.unsafe.dll.compressed" LogicalName="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.accesscontrol.dll.compressed" LogicalName="costura.system.security.accesscontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.cng.dll.compressed" LogicalName="costura.system.security.cryptography.cng.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.pkcs.dll.compressed" LogicalName="costura.system.security.cryptography.pkcs.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.protecteddata.dll.compressed" LogicalName="costura.system.security.cryptography.protecteddata.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.cryptography.xml.dll.compressed" LogicalName="costura.system.security.cryptography.xml.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.permissions.dll.compressed" LogicalName="costura.system.security.permissions.dll.compressed" />
+    <EmbeddedResource Include="costura.system.security.principal.windows.dll.compressed" LogicalName="costura.system.security.principal.windows.dll.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.duplex.dll.compressed" LogicalName="costura.system.servicemodel.duplex.dll.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.duplex.pdb.compressed" LogicalName="costura.system.servicemodel.duplex.pdb.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.http.dll.compressed" LogicalName="costura.system.servicemodel.http.dll.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.http.pdb.compressed" LogicalName="costura.system.servicemodel.http.pdb.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.nettcp.dll.compressed" LogicalName="costura.system.servicemodel.nettcp.dll.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.nettcp.pdb.compressed" LogicalName="costura.system.servicemodel.nettcp.pdb.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.primitives.dll.compressed" LogicalName="costura.system.servicemodel.primitives.dll.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.primitives.pdb.compressed" LogicalName="costura.system.servicemodel.primitives.pdb.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.security.dll.compressed" LogicalName="costura.system.servicemodel.security.dll.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.security.pdb.compressed" LogicalName="costura.system.servicemodel.security.pdb.compressed" />
+    <EmbeddedResource Include="costura.system.servicemodel.syndication.dll.compressed" LogicalName="costura.system.servicemodel.syndication.dll.compressed" />
+    <EmbeddedResource Include="costura.system.serviceprocess.servicecontroller.dll.compressed" LogicalName="costura.system.serviceprocess.servicecontroller.dll.compressed" />
+    <EmbeddedResource Include="costura.system.text.encoding.codepages.dll.compressed" LogicalName="costura.system.text.encoding.codepages.dll.compressed" />
+    <EmbeddedResource Include="costura.system.threading.accesscontrol.dll.compressed" LogicalName="costura.system.threading.accesscontrol.dll.compressed" />
+    <EmbeddedResource Include="costura.system.web.services.description.dll.compressed" LogicalName="costura.system.web.services.description.dll.compressed" />
+    <EmbeddedResource Include="costura.system.web.services.description.pdb.compressed" LogicalName="costura.system.web.services.description.pdb.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Bunifu.UI.WinForms" Version="6.3.0" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\RE\deobf\silverrat\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms">
+      <HintPath>D:\RE\deobf\silverrat\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>D:\RE\deobf\silverrat\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="cGeoIp">
+      <HintPath>D:\RE\deobf\silverrat\cGeoIp.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Core">
+      <HintPath>D:\RE\deobf\silverrat\protobuf-net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>D:\RE\deobf\silverrat\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="protobuf-net">
+      <HintPath>D:\RE\deobf\silverrat\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SilverRAT.EncryptString\" />
+  </ItemGroup>
+</Project>
